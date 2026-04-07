@@ -112,7 +112,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "description": "How SnapAlert collects, uses, and protects your data.",
-    "lastUpdated": "Last updated: April 7, 2025",
+    "lastUpdated": "Last updated: April 7, 2026",
     "backHome": "\u2190 Back to Home",
     "intro": "SnapAlert (\"we\", \"us\", \"the Service\") is a Telegram bot that monitors webpages for visual changes using screenshot comparison. This policy explains what data we collect, how we use it, and your rights. We keep it short and honest.",
     "collect": {
@@ -179,7 +179,7 @@
   "terms": {
     "title": "Terms of Service",
     "description": "Terms and conditions for using SnapAlert.",
-    "lastUpdated": "Last updated: April 7, 2025",
+    "lastUpdated": "Last updated: April 7, 2026",
     "backHome": "\u2190 Back to Home",
     "intro": "By using SnapAlert (\"the Service\"), you agree to these terms. The Service is a Telegram bot that monitors publicly accessible webpages for visual changes and notifies you via Telegram.",
     "service": {
