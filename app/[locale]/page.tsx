@@ -1,5 +1,6 @@
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 const BOT_LINK = 'https://t.me/web_snap_alert_bot';
 const BRAND_NAME = 'SnapAlert';
@@ -427,75 +428,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
         </section>
       </main>
 
-      {/* ── Footer ── */}
-      <footer className="border-t border-card-border bg-footer-bg">
-        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-5">
-            {/* Brand */}
-            <div className="sm:col-span-2 md:col-span-1">
-              <div className="mb-3 flex items-center gap-2 text-lg font-bold text-foreground">
-                <svg width="24" height="24" viewBox="0 0 28 28" fill="none" className="text-primary">
-                  <rect width="28" height="28" rx="6" fill="currentColor" fillOpacity="0.15" />
-                  <path d="M8 14l4 4 8-8" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                {BRAND_NAME}
-              </div>
-              <p className="text-sm text-muted">{t('footer.tagline')}</p>
-            </div>
-
-            {/* Product */}
-            <div>
-              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">{t('footer.product')}</h4>
-              <ul className="space-y-2">
-                <li><a href="#how-it-works" className="text-sm text-muted transition-colors hover:text-foreground">{t('footer.howItWorks')}</a></li>
-                <li><a href="#use-cases" className="text-sm text-muted transition-colors hover:text-foreground">{t('footer.useCases')}</a></li>
-              </ul>
-            </div>
-
-            {/* Legal */}
-            <div>
-              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">{t('footer.legal')}</h4>
-              <ul className="space-y-2">
-                <li><Link href={`/${locale}/privacy`} className="text-sm text-muted transition-colors hover:text-foreground">{t('footer.privacy')}</Link></li>
-                <li><Link href={`/${locale}/terms`} className="text-sm text-muted transition-colors hover:text-foreground">{t('footer.terms')}</Link></li>
-              </ul>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">{t('footer.contact')}</h4>
-              <ul className="space-y-2">
-                <li><a href="mailto:snapalertdemo@gmail.com" className="text-sm text-muted transition-colors hover:text-foreground">{t('footer.contactEmail')}</a></li>
-                <li><a href="https://linktr.ee/sqverful" target="_blank" rel="noopener noreferrer" className="text-sm text-muted transition-colors hover:text-foreground">Linktree</a></li>
-              </ul>
-            </div>
-
-            {/* Language */}
-            <div>
-              <h4 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted">Language</h4>
-              <div className="flex gap-2">
-                <Link
-                  href="/en"
-                  className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${locale === 'en' ? 'bg-primary/15 text-primary' : 'text-muted hover:bg-card hover:text-foreground'}`}
-                >
-                  English
-                </Link>
-                <Link
-                  href="/uk"
-                  className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${locale === 'uk' ? 'bg-primary/15 text-primary' : 'text-muted hover:bg-card hover:text-foreground'}`}
-                >
-                  Українська
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Copyright */}
-          <div className="mt-10 border-t border-card-border pt-6 text-center text-sm text-muted">
-            &copy; {new Date().getFullYear()} {BRAND_NAME}. {t('footer.rights')}
-          </div>
-        </div>
-      </footer>
+      <Footer locale={locale} />
     </>
   );
 }

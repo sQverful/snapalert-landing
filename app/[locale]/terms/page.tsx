@@ -1,6 +1,7 @@
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
 import type {Metadata} from 'next';
+import Footer from '../../components/Footer';
 
 const BRAND_NAME = 'SnapAlert';
 
@@ -119,6 +120,8 @@ export default async function TermsPage({params}: {params: Promise<{locale: stri
           </section>
         </div>
       </main>
+
+      <Footer locale={locale} />
     </>
   );
 }
