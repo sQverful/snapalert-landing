@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "SnapAlert — Screenshot-Based URL Monitoring",
+    "description": "Monitor any webpage for visual changes. Get notified via Telegram when prices drop, reports update, or content changes. AI-powered screenshot comparison."
+  },
+  "hero": {
+    "badge": "AI-Powered Monitoring",
+    "title": "Monitor Any Webpage.",
+    "titleHighlight": "Get Notified Instantly.",
+    "subtitle": "Track prices, financial reports, government filings, and any webpage changes — powered by AI screenshot comparison. No coding required.",
+    "cta": "Start Monitoring Free",
+    "ctaSecondary": "See How It Works",
+    "ctaSub": "Free during alpha. 5 URLs, 150 checks/month."
+  },
+  "trust": {
+    "title": "Currently in Alpha",
+    "subtitle": "Free to use while we build. Early users will get perks when we launch.",
+    "items": [
+      { "headline": "Monitor Any URL", "detail": "Up to 5 pages free" },
+      { "headline": "AI-Powered Detection", "detail": "Smart screenshot comparison" },
+      { "headline": "150 Free Checks/mo", "detail": "Daily monitoring included" },
+      { "headline": "Instant Alerts", "detail": "Delivered via Telegram" }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Three simple steps to start monitoring any webpage",
+    "step1": {
+      "title": "Add a URL",
+      "description": "Send any URL to the bot in Telegram. It takes an initial screenshot and starts tracking.",
+      "screenshotAlt": "Bot screenshot: adding a URL"
+    },
+    "step2": {
+      "title": "AI Detects Changes",
+      "description": "Screenshots are compared using pixel diff and AI analysis. Only real changes trigger alerts.",
+      "screenshotAlt": "Bot screenshot: change detection"
+    },
+    "step3": {
+      "title": "Get Notified",
+      "description": "Receive before/after screenshots with an AI summary of exactly what changed.",
+      "screenshotAlt": "Bot screenshot: notification"
+    }
+  },
+  "useCases": {
+    "title": "What Can You Monitor?",
+    "subtitle": "Works on any publicly accessible webpage. Here are some real examples:",
+    "price": {
+      "title": "Price Tracking",
+      "description": "Monitor product pages on Amazon, eBay, or any e-commerce store for price drops and stock changes.",
+      "exampleUrl": "https://www.amazon.com/dp/B0D1XD1ZV3",
+      "exampleLabel": "Try: Amazon product page"
+    },
+    "finance": {
+      "title": "Financial Reports",
+      "description": "Track US Treasury yields, bond rates, and economic indicators from official sources.",
+      "exampleUrl": "https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield",
+      "exampleLabel": "Try: US Treasury Yield Curve"
+    },
+    "sec": {
+      "title": "SEC & IPO Filings",
+      "description": "Watch SEC EDGAR for new 10-K filings, IPO registrations, and regulatory updates.",
+      "exampleUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=10",
+      "exampleLabel": "Try: SEC S-1 Filings"
+    },
+    "government": {
+      "title": "Government & Policy",
+      "description": "Monitor government pages for policy updates, regulation changes, or official announcements.",
+      "exampleUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "exampleLabel": "Try: US Employment Report"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about SnapAlert",
+    "q1": "How does AI-based change detection work?",
+    "a1": "We take periodic screenshots of your monitored URLs and compare them using both pixel-level diff and AI vision analysis. This means we catch visual changes that simple HTML monitoring would miss — like dynamic content, images, and rendered charts.",
+    "q2": "Is there a limit on the free plan?",
+    "a2": "The free plan includes 5 URLs and 150 checks per month. That is enough for daily monitoring of your most important pages. You can upgrade anytime if you need more capacity.",
+    "q3": "What types of pages can I monitor?",
+    "a3": "Any publicly accessible webpage works — e-commerce product pages, government sites, financial dashboards, SEC filings, news sites, and more. If you can open it in a browser, we can monitor it.",
+    "q4": "How quickly will I be notified of changes?",
+    "a4": "Detection time depends on your plan and check frequency. On paid plans, checks can run as frequently as every few minutes. You will receive a Telegram notification with before/after screenshots and an AI summary within seconds of detection."
+  },
+  "pricing": {
+    "title": "Free During Alpha",
+    "subtitle": "We're in early access. Use the bot for free with these limits. Paid plans with more capacity are coming soon — early users will get bonuses.",
+    "alpha": {
+      "name": "Alpha Access",
+      "price": "$0",
+      "features": ["5 monitored URLs", "150 checks per month", "Daily monitoring", "AI change summaries", "Screenshot history", "Telegram notifications"]
+    },
+    "cta": "Try It Free"
+  },
+  "footer": {
+    "tagline": "AI-powered webpage monitoring via Telegram. Currently in alpha.",
+    "product": "Product",
+    "howItWorks": "How It Works",
+    "useCases": "Use Cases",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "contactEmail": "Get in touch",
+    "rights": "All rights reserved."
+  },
+  "nav": {
+    "howItWorks": "How It Works",
+    "useCases": "Use Cases",
+    "faq": "FAQ",
+    "startFree": "Try Free"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "How SnapAlert collects, uses, and protects your data.",
+    "lastUpdated": "Last updated: April 7, 2025",
+    "backHome": "\u2190 Back to Home",
+    "intro": "SnapAlert (\"we\", \"us\", \"the Service\") is a Telegram bot that monitors webpages for visual changes using screenshot comparison. This policy explains what data we collect, how we use it, and your rights. We keep it short and honest.",
+    "collect": {
+      "title": "What We Collect",
+      "intro": "We collect only the data necessary to provide the monitoring service:",
+      "telegram": {
+        "title": "From your Telegram account",
+        "item1": "Telegram user ID (numeric identifier assigned by Telegram)",
+        "item2": "Display name (first name, last name) and username",
+        "item3": "Language preference"
+      },
+      "monitoring": {
+        "title": "From your monitoring activity",
+        "item1": "URLs you submit for monitoring",
+        "item2": "Screenshots of those pages (captured automatically)",
+        "item3": "Custom monitoring instructions you provide (optional)",
+        "item4": "Change detection history and notification delivery status"
+      },
+      "landing": {
+        "title": "On the landing page",
+        "description": "We use Umami, a self-hosted, cookie-free analytics tool, to understand how visitors interact with this website. Umami does not collect personal data, does not use cookies, and does not track you across sites. All analytics data stays on our own servers."
+      }
+    },
+    "use": {
+      "title": "How We Use Your Data",
+      "item1": "To take screenshots of URLs you submit and detect visual changes",
+      "item2": "To send you Telegram notifications when changes are detected",
+      "item3": "To generate AI-powered summaries of what changed on the page",
+      "item4": "To enforce usage limits (URLs per user, checks per month)"
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "intro": "To provide screenshot comparison and change analysis, we send page screenshots to:",
+      "item1": "Google Gemini API — for AI-based visual change detection and summary generation",
+      "item2": "OpenAI API — as an alternative AI provider for change analysis",
+      "item3": "ScrapingBee / Zyte — optional cloud screenshot services used as fallbacks when local capture is unavailable",
+      "note": "Only screenshots of the monitored pages are sent to these services — not your personal data. We do not sell or share your personal information with anyone."
+    },
+    "storage": {
+      "title": "Data Storage",
+      "description": "All data is stored in a PostgreSQL database on our servers. Screenshots are stored as binary data in the database. We do not use third-party data warehouses or cloud storage for your personal data."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "We do not use cookies. The Telegram bot operates entirely through the Telegram API. The landing page uses Umami analytics which is cookie-free by design."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You can at any time:",
+      "item1": "Request a copy of all data we store about you",
+      "item2": "Request deletion of your account and all associated data",
+      "item3": "Stop monitoring by removing URLs or blocking the bot on Telegram",
+      "contact": "To exercise these rights, contact us at the email below."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "description": "We may update this policy as the service evolves. Significant changes will be communicated via the bot or this page. The \"last updated\" date at the top reflects the most recent revision."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For privacy-related questions or data requests, email us at"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms and conditions for using SnapAlert.",
+    "lastUpdated": "Last updated: April 7, 2025",
+    "backHome": "\u2190 Back to Home",
+    "intro": "By using SnapAlert (\"the Service\"), you agree to these terms. The Service is a Telegram bot that monitors publicly accessible webpages for visual changes and notifies you via Telegram.",
+    "service": {
+      "title": "What the Service Does",
+      "description": "SnapAlert periodically takes screenshots of URLs you provide, compares them to detect visual changes, and sends you Telegram notifications with before/after screenshots and an AI-generated summary of what changed."
+    },
+    "alpha": {
+      "title": "Alpha Status",
+      "description": "The Service is currently in alpha. It is provided free of charge with no guaranteed uptime, accuracy, or feature completeness. Features may change, break, or be removed without notice. We may reset data or modify limits as we develop the product."
+    },
+    "acceptable": {
+      "title": "Acceptable Use",
+      "intro": "You agree not to use the Service to:",
+      "item1": "Monitor pages you are not authorized to access",
+      "item2": "Attempt to circumvent rate limits or usage restrictions",
+      "item3": "Use the Service for any illegal purpose or to facilitate illegal activity",
+      "item4": "Overload the Service with excessive requests or automated abuse"
+    },
+    "limits": {
+      "title": "Free Tier Limits",
+      "item1": "Up to 5 monitored URLs per account",
+      "item2": "Up to 150 checks per month",
+      "item3": "These limits may change as the Service evolves"
+    },
+    "content": {
+      "title": "Monitored Content",
+      "description": "You are responsible for the URLs you submit. The Service takes screenshots of publicly accessible webpages — we do not control or endorse the content of those pages. Screenshots are stored for comparison purposes and may be processed by AI services as described in our Privacy Policy."
+    },
+    "availability": {
+      "title": "Availability",
+      "description": "We aim to keep the Service running, but we do not guarantee uptime. The Service may be unavailable due to maintenance, infrastructure issues, or other reasons. Detection timing depends on check frequency and is not real-time."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "description": "The Service is provided \"as is\" without warranties of any kind. We are not liable for missed changes, false positives, delayed notifications, or any decisions you make based on the Service's output. Do not rely on SnapAlert as your sole source of information for time-critical or financial decisions."
+    },
+    "termination": {
+      "title": "Account and Termination",
+      "description": "We may suspend or terminate your access if you violate these terms or abuse the Service. You can stop using the Service at any time by removing your monitored URLs or blocking the bot on Telegram. Upon termination, we may delete your data."
+    },
+    "changes": {
+      "title": "Changes to These Terms",
+      "description": "We may update these terms as the Service evolves. Continued use after changes constitutes acceptance. Significant changes will be communicated via the bot or this page."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For questions about these terms, email us at"
+    }
+  }
+}
