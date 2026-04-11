@@ -78,10 +78,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
       <header className="sticky top-0 z-50 w-full border-b border-card-border bg-background/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href={`/${locale}`} className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="text-primary">
-              <rect width="28" height="28" rx="6" fill="currentColor" fillOpacity="0.15" />
-              <path d="M8 14l4 4 8-8" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+            <img src="/snapalert_logo.png" alt={BRAND_NAME} width={32} height={32} className="rounded" />
             <span>{BRAND_NAME}</span>
           </Link>
 
@@ -219,9 +216,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{t('howItWorks.step1.title')}</h3>
                 <p className="text-sm leading-relaxed text-muted">{t('howItWorks.step1.description')}</p>
                 <div className="mt-4 w-full overflow-hidden rounded-xl border border-card-border bg-background">
-                  <div className="flex h-48 items-center justify-center text-sm text-muted">
-                    {t('howItWorks.step1.screenshotAlt')}
-                  </div>
+                  <img src="/how-it-works-screenshots/step1.png" alt={t('howItWorks.step1.screenshotAlt')} className="h-auto w-full object-cover" />
                 </div>
               </article>
 
@@ -238,9 +233,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{t('howItWorks.step2.title')}</h3>
                 <p className="text-sm leading-relaxed text-muted">{t('howItWorks.step2.description')}</p>
                 <div className="mt-4 w-full overflow-hidden rounded-xl border border-card-border bg-background">
-                  <div className="flex h-48 items-center justify-center text-sm text-muted">
-                    {t('howItWorks.step2.screenshotAlt')}
-                  </div>
+                  <img src="/how-it-works-screenshots/step2.png" alt={t('howItWorks.step2.screenshotAlt')} className="h-auto w-full object-cover" />
                 </div>
               </article>
 
@@ -256,9 +249,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{t('howItWorks.step3.title')}</h3>
                 <p className="text-sm leading-relaxed text-muted">{t('howItWorks.step3.description')}</p>
                 <div className="mt-4 w-full overflow-hidden rounded-xl border border-card-border bg-background">
-                  <div className="flex h-48 items-center justify-center text-sm text-muted">
-                    {t('howItWorks.step3.screenshotAlt')}
-                  </div>
+                  <img src="/how-it-works-screenshots/step3.png" alt={t('howItWorks.step3.screenshotAlt')} className="h-auto w-full object-cover" />
                 </div>
               </article>
             </div>

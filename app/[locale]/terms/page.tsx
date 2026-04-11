@@ -24,10 +24,7 @@ export default async function TermsPage({params}: {params: Promise<{locale: stri
       <header className="sticky top-0 z-50 w-full border-b border-card-border bg-background/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href={`/${locale}`} className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="text-primary">
-              <rect width="28" height="28" rx="6" fill="currentColor" fillOpacity="0.15" />
-              <path d="M8 14l4 4 8-8" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+            <img src="/snapalert_logo.png" alt={BRAND_NAME} width={32} height={32} className="rounded" />
             <span>{BRAND_NAME}</span>
           </Link>
           <Link href={`/${locale}`} className="text-sm text-muted transition-colors hover:text-foreground">

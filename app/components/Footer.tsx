@@ -14,10 +14,7 @@ export default async function Footer({locale}: {locale: string}) {
           {/* Brand */}
           <div className="sm:col-span-2 md:col-span-1">
             <div className="mb-3 flex items-center gap-2 text-lg font-bold text-foreground">
-              <svg width="24" height="24" viewBox="0 0 28 28" fill="none" className="text-primary">
-                <rect width="28" height="28" rx="6" fill="currentColor" fillOpacity="0.15" />
-                <path d="M8 14l4 4 8-8" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+              <img src="/snapalert_logo.png" alt={BRAND_NAME} width={24} height={24} className="rounded" />
               {BRAND_NAME}
             </div>
             <p className="text-sm text-muted">{t('tagline')}</p>
