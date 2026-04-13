@@ -43,30 +43,51 @@
   },
   "useCases": {
     "title": "What Can You Monitor?",
-    "subtitle": "Works on any publicly accessible webpage. Here are some real examples:",
-    "price": {
-      "title": "Price Tracking",
-      "description": "Monitor product pages on Amazon, eBay, or any e-commerce store for price drops and stock changes.",
-      "exampleUrl": "https://www.amazon.com/dp/B0D1XD1ZV3",
-      "exampleLabel": "Try: Amazon product page"
+    "subtitle": "Works on any publicly accessible webpage. Here are just a few ideas:",
+    "sectionLabel": "Personal Use",
+    "restock": {
+      "title": "Restock Alerts",
+      "description": "Know the moment sold-out items are back on shelves."
     },
-    "finance": {
-      "title": "Financial Reports",
-      "description": "Track US Treasury yields, bond rates, and economic indicators from official sources.",
-      "exampleUrl": "https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield",
-      "exampleLabel": "Try: US Treasury Yield Curve"
+    "priceDrops": {
+      "title": "Price Drops",
+      "description": "Track prices across any store and never miss a deal."
     },
-    "sec": {
-      "title": "SEC & IPO Filings",
-      "description": "Watch SEC EDGAR for new 10-K filings, IPO registrations, and regulatory updates.",
-      "exampleUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=10",
-      "exampleLabel": "Try: SEC S-1 Filings"
+    "news": {
+      "title": "News & Headlines",
+      "description": "Stay current with the latest stories from any source."
     },
-    "government": {
-      "title": "Government & Policy",
-      "description": "Monitor government pages for policy updates, regulation changes, or official announcements.",
-      "exampleUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "exampleLabel": "Try: US Employment Report"
+    "jobs": {
+      "title": "Job Openings",
+      "description": "Keep tabs on new roles at the companies you care about."
+    },
+    "realEstate": {
+      "title": "Real Estate",
+      "description": "Spot new property listings as soon as they go live."
+    },
+    "socialMedia": {
+      "title": "Social Media",
+      "description": "Track profile updates and new posts without endless scrolling."
+    },
+    "grades": {
+      "title": "Grades & Courses",
+      "description": "Get alerted when grades post or registration windows open."
+    },
+    "restaurants": {
+      "title": "Restaurant Reservations",
+      "description": "Grab a table at popular spots when cancellations happen."
+    },
+    "scholarships": {
+      "title": "Scholarships & Grants",
+      "description": "Stay ahead of deadlines for funding opportunities."
+    },
+    "travel": {
+      "title": "Travel Deals",
+      "description": "Lock in the best rates on flights and hotels before they disappear."
+    },
+    "tickets": {
+      "title": "Tickets & Events",
+      "description": "Be first to know when tickets go on sale for concerts, games, and shows."
     }
   },
   "faq": {

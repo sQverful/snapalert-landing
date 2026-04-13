@@ -58,8 +58,8 @@ export default async function Footer({locale}: {locale: string}) {
                 English
               </Link>
               <Link
-                href="/uk"
-                className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${locale === 'uk' ? 'bg-primary/15 text-primary' : 'text-muted hover:bg-card hover:text-foreground'}`}
+                href="/ua"
+                className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${locale === 'ua' ? 'bg-primary/15 text-primary' : 'text-muted hover:bg-card hover:text-foreground'}`}
               >
                 Українська
               </Link>

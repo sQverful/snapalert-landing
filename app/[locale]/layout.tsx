@@ -36,7 +36,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
       type: 'website',
       url: `/${locale}`,
       siteName: 'SnapAlert',
-      locale: locale === 'uk' ? 'uk_UA' : 'en_US',
+      locale: locale === 'ua' ? 'uk_UA' : 'en_US',
       images: [
         {
           url: '/og-image.png',
@@ -56,7 +56,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
       canonical: `/${locale}`,
       languages: {
         en: '/en',
-        uk: '/uk',
+        uk: '/ua',
         'x-default': '/en',
       },
     },
