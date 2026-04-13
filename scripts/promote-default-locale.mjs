@@ -40,6 +40,9 @@ function buildLocalePatterns(prefix) {
 }
 if (BASE_PATH) replacements.push(...buildLocalePatterns(BASE_PATH));
 if (SITE_URL) replacements.push(...buildLocalePatterns(SITE_URL));
+// Also handle bare `/en` refs (no basePath) in RSC hydration payloads —
+// Next.js stores Link hrefs pre-basePath, which it prepends at client runtime.
+replacements.push(...buildLocalePatterns(''));
 
 for (const file of walk(OUT)) {
   let content = readFileSync(file, 'utf8');
