@@ -5,6 +5,7 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import {Geist, Geist_Mono} from 'next/font/google';
 import type {Metadata} from 'next';
+import {asset} from '../components/assetPath';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -30,6 +31,13 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     metadataBase: new URL(siteUrl),
     title: t('title'),
     description: t('description'),
+    icons: {
+      icon: [
+        {url: asset('/snapalert_logo.png'), type: 'image/png'},
+      ],
+      shortcut: [asset('/snapalert_logo.png')],
+      apple: [asset('/snapalert_logo.png')],
+    },
     openGraph: {
       title: t('title'),
       description: t('description'),

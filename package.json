@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/promote-default-locale.mjs",
     "start": "next start",
     "lint": "eslint"
   },

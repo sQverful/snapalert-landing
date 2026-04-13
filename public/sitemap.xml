@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sqverful.github.io/snapalert-landing/en</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/en"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/uk"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sqverful.github.io/snapalert-landing/en"/>
+    <loc>https://sqverful.github.io/snapalert-landing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/ua"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sqverful.github.io/snapalert-landing/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sqverful.github.io/snapalert-landing/uk</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/en"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/uk"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sqverful.github.io/snapalert-landing/en"/>
+    <loc>https://sqverful.github.io/snapalert-landing/ua</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/ua"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sqverful.github.io/snapalert-landing/"/>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sqverful.github.io/snapalert-landing/en/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/en/privacy"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/uk/privacy"/>
+    <loc>https://sqverful.github.io/snapalert-landing/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/privacy"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/ua/privacy"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://sqverful.github.io/snapalert-landing/uk/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/en/privacy"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/uk/privacy"/>
+    <loc>https://sqverful.github.io/snapalert-landing/ua/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/privacy"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/ua/privacy"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://sqverful.github.io/snapalert-landing/en/terms</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/en/terms"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/uk/terms"/>
+    <loc>https://sqverful.github.io/snapalert-landing/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/terms"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/ua/terms"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://sqverful.github.io/snapalert-landing/uk/terms</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/en/terms"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/uk/terms"/>
+    <loc>https://sqverful.github.io/snapalert-landing/ua/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sqverful.github.io/snapalert-landing/terms"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://sqverful.github.io/snapalert-landing/ua/terms"/>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

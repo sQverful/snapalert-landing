@@ -195,7 +195,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
 
         {/* ── How It Works ── */}
         <section id="how-it-works" className="bg-card py-20 sm:py-28">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:max-w-7xl">
             <div className="mb-16 text-center">
               <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">{t('howItWorks.title')}</h2>
               <p className="mt-3 text-lg text-muted">{t('howItWorks.subtitle')}</p>
