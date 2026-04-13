@@ -2,6 +2,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
 import type {Metadata} from 'next';
 import Footer from '../../components/Footer';
+import {asset} from '../../components/assetPath';
 
 const BRAND_NAME = 'SnapAlert';
 
@@ -24,7 +25,7 @@ export default async function PrivacyPage({params}: {params: Promise<{locale: st
       <header className="sticky top-0 z-50 w-full border-b border-card-border bg-background/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href={`/${locale}`} className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
-            <img src="/snapalert_logo.png" alt={BRAND_NAME} width={32} height={32} className="rounded" />
+            <img src={asset("/snapalert_logo.png")} alt={BRAND_NAME} width={32} height={32} className="rounded" />
             <span>{BRAND_NAME}</span>
           </Link>
           <Link href={`/${locale}`} className="text-sm text-muted transition-colors hover:text-foreground">

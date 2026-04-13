@@ -65,10 +65,6 @@
       "title": "Real Estate",
       "description": "Spot new property listings as soon as they go live."
     },
-    "socialMedia": {
-      "title": "Social Media",
-      "description": "Track profile updates and new posts without endless scrolling."
-    },
     "grades": {
       "title": "Grades & Courses",
       "description": "Get alerted when grades post or registration windows open."
@@ -80,10 +76,6 @@
     "scholarships": {
       "title": "Scholarships & Grants",
       "description": "Stay ahead of deadlines for funding opportunities."
-    },
-    "travel": {
-      "title": "Travel Deals",
-      "description": "Lock in the best rates on flights and hotels before they disappear."
     },
     "tickets": {
       "title": "Tickets & Events",

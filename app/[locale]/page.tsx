@@ -1,6 +1,7 @@
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
 import Footer from '../components/Footer';
+import {asset} from '../components/assetPath';
 
 const BOT_LINK = 'https://t.me/web_snap_alert_bot';
 const BRAND_NAME = 'SnapAlert';
@@ -78,7 +79,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
       <header className="sticky top-0 z-50 w-full border-b border-card-border bg-background/90 backdrop-blur-md">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href={`/${locale}`} className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
-            <img src="/snapalert_logo.png" alt={BRAND_NAME} width={32} height={32} className="rounded" />
+            <img src={asset("/snapalert_logo.png")} alt={BRAND_NAME} width={32} height={32} className="rounded" />
             <span>{BRAND_NAME}</span>
           </Link>
 
@@ -216,7 +217,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{t('howItWorks.step1.title')}</h3>
                 <p className="text-sm leading-relaxed text-muted">{t('howItWorks.step1.description')}</p>
                 <div className="mt-4 w-full overflow-hidden rounded-xl border border-card-border bg-background">
-                  <img src="/how-it-works-screenshots/step1.png" alt={t('howItWorks.step1.screenshotAlt')} className="h-auto w-full object-cover" />
+                  <img src={asset("/how-it-works-screenshots/step1.png")} alt={t('howItWorks.step1.screenshotAlt')} className="h-auto w-full object-cover" />
                 </div>
               </article>
 
@@ -233,7 +234,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{t('howItWorks.step2.title')}</h3>
                 <p className="text-sm leading-relaxed text-muted">{t('howItWorks.step2.description')}</p>
                 <div className="mt-4 w-full overflow-hidden rounded-xl border border-card-border bg-background">
-                  <img src="/how-it-works-screenshots/step2.png" alt={t('howItWorks.step2.screenshotAlt')} className="h-auto w-full object-cover" />
+                  <img src={asset("/how-it-works-screenshots/step2.png")} alt={t('howItWorks.step2.screenshotAlt')} className="h-auto w-full object-cover" />
                 </div>
               </article>
 
@@ -249,7 +250,7 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 <h3 className="mb-2 text-xl font-semibold text-foreground">{t('howItWorks.step3.title')}</h3>
                 <p className="text-sm leading-relaxed text-muted">{t('howItWorks.step3.description')}</p>
                 <div className="mt-4 w-full overflow-hidden rounded-xl border border-card-border bg-background">
-                  <img src="/how-it-works-screenshots/step3.png" alt={t('howItWorks.step3.screenshotAlt')} className="h-auto w-full object-cover" />
+                  <img src={asset("/how-it-works-screenshots/step3.png")} alt={t('howItWorks.step3.screenshotAlt')} className="h-auto w-full object-cover" />
                 </div>
               </article>
             </div>
@@ -273,11 +274,9 @@ export default async function LandingPage({params}: {params: Promise<{locale: st
                 { key: 'news', icon: <><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" /><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" /></> },
                 { key: 'jobs', icon: <><rect x="2" y="7" width="20" height="14" rx="2" ry="2" /><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16" /></> },
                 { key: 'realEstate', icon: <><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" /><polyline points="9 22 9 12 15 12 15 22" /></> },
-                { key: 'socialMedia', icon: <><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><line x1="2" y1="10" x2="22" y2="10" /></> },
                 { key: 'grades', icon: <><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" /><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" /><line x1="6" y1="8" x2="6" y2="8.01" /><line x1="18" y1="8" x2="18" y2="8.01" /></> },
                 { key: 'restaurants', icon: <><path d="M18 8h1a4 4 0 010 8h-1" /><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" /><line x1="6" y1="1" x2="6" y2="4" /><line x1="10" y1="1" x2="10" y2="4" /><line x1="14" y1="1" x2="14" y2="4" /></> },
                 { key: 'scholarships', icon: <><circle cx="12" cy="8" r="7" /><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" /></> },
-                { key: 'travel', icon: <><path d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3s-3-.5-4.5 1L13 7l-8.2-1.8c-.4-.1-.8.1-.9.4L2.3 8.4c-.2.3 0 .7.3.8L9 12l-2 2-3-.5c-.3 0-.5.1-.7.3l-1 1.2c-.2.2-.1.5.1.7L7 18l2.5 4.6c.2.2.5.3.7.1l1.2-1c.2-.2.3-.4.3-.7L11 18l2-2 2.8 6.4c.1.3.5.5.8.3l2.8-1.6c.3-.2.4-.6.3-.9z" /></> },
                 { key: 'tickets', icon: <><path d="M2 9a3 3 0 013 3 3 3 0 01-3 3v4a2 2 0 002 2h16a2 2 0 002-2v-4a3 3 0 01-3-3 3 3 0 013-3V5a2 2 0 00-2-2H4a2 2 0 00-2 2z" /><line x1="9" y1="3" x2="9" y2="5" /><line x1="9" y1="9" x2="9" y2="11" /><line x1="9" y1="15" x2="9" y2="17" /><line x1="9" y1="19" x2="9" y2="21" /></> },
               ] as const).map(({ key, icon }, i) => (
                 <article key={key} className="group flex items-start gap-4 rounded-2xl border border-card-border bg-card p-5 transition-all hover:border-primary/30 hover:shadow-md">
